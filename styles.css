@@ -39,7 +39,7 @@ h2 {
 .tim-container {
     width : 20%;
     height : 350px;
-    box-shadow: 5px 5px 20px grey;
+    box-shadow: 5px 5px 20px rgb(10, 9, 9);
     justify-content: space-around;
     margin : 10px;
     text-align: center;
@@ -143,4 +143,3 @@ footer .sci li a .fa{
     color:white;
     font-size:20px;
 }
-
