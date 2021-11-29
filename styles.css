@@ -1,11 +1,3 @@
-@media only screen and (max-width: 1000px) {
-    .team-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-
 .introduction {
     background-image: url(https://www.areasofmyexpertise.com/wp-content/uploads/2020/07/A4C4B2D1-13C2-457A-9F59-E32A5A949D69-1100x767.jpg);
     height:300px;
@@ -41,7 +33,7 @@ h2 {
     height : 350px;
     box-shadow: 5px 5px 20px rgb(10, 9, 9);
     justify-content: space-around;
-    margin : 10px;
+    /* margin : 10px; */
     text-align: center;
 
 }
@@ -65,9 +57,11 @@ h4 {
 
 .team-wrapper {
     background-color: blueviolet;
-    height : 100%;
-    display : flex;
-    justify-content: space-around;
+    display: flex;
+}
+
+.team-wrapper .tim-container {
+  flex: auto;
 }
 
 .thankyou {
@@ -109,6 +103,28 @@ h4 {
     margin-right : 20px;
 }
 
+@media (max-width: 1000px) {
+
+  .team-wrapper {
+    flex-wrap: wrap;
+  }
+
+    .team-wrapper .tim-container {
+      width: 50%;
+    }
+}
+
+@media (max-width: 670px) {
+
+  .team-wrapper {
+    flex-direction: column;
+  }
+
+  .team-wrapper .tim-container {
+    width: 100%;
+  }
+}
+
 /*ini adalah bagian footer*/
 
 footer{
@@ -127,7 +143,7 @@ footer .content{
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-} 
+}
 footer .sec{
     margin-right: 30px;
     width: 40%;
@@ -150,6 +166,10 @@ footer .content h5:before{
 footer p{
     color:white;
 
+}
+ul {
+  padding: 0;
+  margin: 0;
 }
 .sci {
     margin-top: 20px;
