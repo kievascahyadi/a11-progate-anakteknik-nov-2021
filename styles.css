@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1000px) {
+    .team-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .introduction {
     background-image: url(https://www.areasofmyexpertise.com/wp-content/uploads/2020/07/A4C4B2D1-13C2-457A-9F59-E32A5A949D69-1100x767.jpg);
     height:300px;
@@ -34,16 +41,30 @@ h2 {
     box-shadow: 5px 5px 20px grey;
     justify-content: space-around;
     margin : 10px;
+    text-align: center;
+
 }
 
 .logo {
     margin-left : 20px;
 }
+.img-tim {
+    width: 100px;
 
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4 {
+    font-size : 20px;
+    margin: auto;
+}
 
 .team-wrapper {
     background-color: blueviolet;
-    height : 800px;
+    height : 100%;
     display : flex;
     justify-content: space-around;
 }
@@ -51,10 +72,6 @@ h2 {
 .thankyou {
     background-color: rgb(219, 164, 91);
     height:300px;
-}
-
-.img-tim {
-    width :100px;
 }
 
 footer {
