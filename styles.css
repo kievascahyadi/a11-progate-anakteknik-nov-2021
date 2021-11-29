@@ -5,6 +5,7 @@
     }
 }
 
+
 .introduction {
     background-image: url(https://www.areasofmyexpertise.com/wp-content/uploads/2020/07/A4C4B2D1-13C2-457A-9F59-E32A5A949D69-1100x767.jpg);
     height:300px;
@@ -74,6 +75,72 @@ h4 {
     height:300px;
 }
 
-footer {
-    background-color: crimson;
+/*ini adalah bagian footer*/
+
+footer{
+    margin-top:10px;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+footer .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+footer .sec{
+    margin-right: 30px;
+    width: 40%;
+}
+footer .content h5{
+    position:relative;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+footer .content h5:before{
+    content: '';
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    width:50px;
+    height:2px;
+    background: red;
+}
+footer p{
+    color:white;
+
+}
+footer .sci {
+    margin-top: 20px;
+    display: flex;
+    }
+footer .sci li{
+    list-style: none;
+}
+footer .sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+footer .sci li a:hover{
+ background:red;
+}
+footer .sci li a .fa{
+    color:white;
+    font-size:20px;
+}
+
