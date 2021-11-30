@@ -1,3 +1,11 @@
+@media only screen and (max-width: 1000px) {
+    .team-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
 .introduction {
     background-image: url(https://www.areasofmyexpertise.com/wp-content/uploads/2020/07/A4C4B2D1-13C2-457A-9F59-E32A5A949D69-1100x767.jpg);
     height:300px;
@@ -33,7 +41,7 @@ h2 {
     height : 350px;
     box-shadow: 5px 5px 20px rgb(10, 9, 9);
     justify-content: space-around;
-    /* margin : 10px; */
+    margin : 10px;
     text-align: center;
 
 }
@@ -57,39 +65,59 @@ h4 {
 
 .team-wrapper {
     background-color: blueviolet;
-    display: flex;
-}
-
-.team-wrapper .tim-container {
-  flex: auto;
+    height : 100%;
+    display : flex;
+    justify-content: space-around;
 }
 
 .thankyou {
-    background-color: rgb(219, 164, 91);
-    height:600px;
+    height:auto;
     width :100%;
 }
 
-.img-full {
-    height : 400px;
-    width : 400px;
-    margin-top:20px;
-    margin-right:5px;
-    margin-left:5px;
+.judul-bagian {
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
 }
 
-.img-atas {
-    height:150px;
-    width:150px;
-    margin-top:20px;
+.hobby1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://res.cloudinary.com/grohealth/image/upload/$wpsize_!post-thumbnail!,w_1000,h_600,c_fill,g_auto/v1588088887/the-ball-stadion-football-the-pitch-46798.jpeg);
+    background-size: cover;
 }
 
-.img-bawah {
-    height:150px;
-    width:150px;
-    margin-top:200px;
+.hobby2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://www.virtualmusicalinstruments.com/images/acoustic-guitar.jpg);
+    background-size: cover;
+}
+.text-gambar {
+    margin: auto;
+    font-size: 25px;
+    color: blanchedalmond;
+    text-align: center;
 }
 
+.gambar1 {
+    margin-top: 35px;
+    margin-left : 30px;
+    margin-bottom :30px;
+    width :50vw;
+    box-shadow: 5px 5px 5px black;
+}
+
+.gambar2 {
+    margin-top: 35px;
+    margin-right : 30px;
+    margin-bottom :30px;
+    width :50vw;
+    box-shadow: 5px 5px 5px black;
+}
 .hobby {
     width: 100%;
     display: flex;
@@ -101,28 +129,6 @@ h4 {
     height : 25%;
     border-radius: 20px;
     margin-right : 20px;
-}
-
-@media (max-width: 1000px) {
-
-  .team-wrapper {
-    flex-wrap: wrap;
-  }
-
-    .team-wrapper .tim-container {
-      width: 50%;
-    }
-}
-
-@media (max-width: 670px) {
-
-  .team-wrapper {
-    flex-direction: column;
-  }
-
-  .team-wrapper .tim-container {
-    width: 100%;
-  }
 }
 
 /*ini adalah bagian footer*/
@@ -143,7 +149,7 @@ footer .content{
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-}
+} 
 footer .sec{
     margin-right: 30px;
     width: 40%;
@@ -167,10 +173,11 @@ footer p{
     color:white;
 
 }
+
 ul {
-  padding: 0;
-  margin: 0;
-}
+    padding: 0;
+    margin: 0;
+  }
 .sci {
     margin-top: 20px;
     display: flex;
