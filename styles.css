@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 500px) {
     .team-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -37,21 +37,19 @@ h2 {
 }
 
 .tim-container {
-    width : 20%;
-    height : 350px;
-    box-shadow: 5px 5px 20px rgb(10, 9, 9);
-    justify-content: space-around;
+    height : auto;
     margin : 10px;
     text-align: center;
-
+    width: 33%;
 }
 
 .logo {
     margin-left : 20px;
 }
 .img-tim {
-    width: 100px;
-    margin-top: 10px;
+    width: 150px;
+    margin-top: 15px;
+    
 }
 
 h3{
@@ -64,12 +62,45 @@ h4 {
 }
 
 .team-wrapper {
-    background-color: blueviolet;
     height : 100%;
-    display : flex;
-    justify-content: space-around;
+    width: 100%;
 }
 
+.tim-besar {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom : 20px;
+    width:100%;
+}
+
+.tim-hobi{
+    margin-right : auto;
+    margin-left : auto;
+    margin-top : auto;
+    margin-bottom:auto;
+    height: auto;
+    width: 33%;
+}
+
+.biodata {
+    text-align:left;
+    font-size: 20px;
+}
+
+.bio-kanan {
+    list-style: none;
+}
+
+.info-tambahan {
+    margin-right : auto;
+    margin-left : auto;
+    margin-top : auto;
+    margin-bottom:auto;
+    height: auto;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
 .thankyou {
     height:auto;
     width :100%;
