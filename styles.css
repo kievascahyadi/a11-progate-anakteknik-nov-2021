@@ -168,13 +168,26 @@ h4 {
 .flip-box {
   transition: all .4s;
   border-radius: 10px;
+  
 
 }
 .flip-box:hover {
   box-shadow: 0 0 16px rgba(33,33,33,.2);
-  background: #fafafa;
+   
 }
 
+body .romi{
+    background-image: url(img/Back-City.jpg);
+    background-size:cover;
+    color:white; 
+    
+   }
+.team-wrapper p{
+    transition: 0.3s ease-in-out;
+}
+.team-wrapper p:hover{
+    transform: scale(1.1);
+}
 /*ini adalah bagian footer*/
 
 footer{
@@ -247,4 +260,17 @@ footer .sci li a:hover{
 footer .sci li a .fa{
     color:white;
     font-size:20px;
+}
+
+
+footer .QuickLink li{
+    list-style: none;
+    }
+footer .QuickLink a{
+line-height: 30px;
+color:grey;
+text-decoration: none;
+}
+footer .QuickLink a:hover{
+     color:white;
 }
