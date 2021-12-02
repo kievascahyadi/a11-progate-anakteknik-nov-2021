@@ -5,6 +5,11 @@
     }
 }
 
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
 
 .introduction {
     background-image: url(https://www.areasofmyexpertise.com/wp-content/uploads/2020/07/A4C4B2D1-13C2-457A-9F59-E32A5A949D69-1100x767.jpg);
@@ -62,15 +67,18 @@ h4 {
 }
 
 .team-wrapper {
-    height : 100%;
-    width: 100%;
+  position: relative;
+  height : 100%;
+  width: 80%;
+  margin: -50px auto 0 auto;
 }
 
 .tim-besar {
     display:flex;
     justify-content: space-between;
-    margin-bottom : 20px;
-    width:100%;
+    margin-bottom : 30px;
+    width: 100%;
+    background-color: #fff;
 }
 
 .tim-hobi{
@@ -168,19 +176,19 @@ h4 {
 .flip-box {
   transition: all .4s;
   border-radius: 10px;
-  
+
 
 }
 .flip-box:hover {
   box-shadow: 0 0 16px rgba(33,33,33,.2);
-   
+
 }
 
 body .romi{
     background-image: url(img/Back-City.jpg);
     background-size:cover;
-    color:white; 
-    
+    color:white;
+
    }
 .team-wrapper p{
     transition: 0.3s ease-in-out;
