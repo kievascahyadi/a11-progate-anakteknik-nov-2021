@@ -264,7 +264,7 @@ footer{
     width: auto;
     height: auto;
     padding: 50px 100px;
-    background: black;
+    background: #01000;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
