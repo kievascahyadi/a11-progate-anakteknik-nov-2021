@@ -3,6 +3,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .logo li {
+  display:flex;
+  flex-wrap:wrap;
+    }
 }
 
 body, html {
@@ -46,7 +51,7 @@ body, html {
     color:yellow;
     padding-top:20px;
     padding-bottom:10x;
-    padding-right:180px;
+    padding-right:10px;
     padding-left:2px;
     float:right;
     list-style:none;
