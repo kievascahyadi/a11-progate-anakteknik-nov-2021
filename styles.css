@@ -264,7 +264,7 @@ footer{
     width: auto;
     height: auto;
     padding: 50px 100px;
-    background: #556B2F;
+    background: rgba(4, 102, 4, 0.8);
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -336,7 +336,7 @@ footer .QuickLink li{
     }
 footer .QuickLink a{
 line-height: 30px;
-color:rgba(4, 102, 4, 0.8);
+color:#E6E6FA;
 text-decoration: none;
 }
 footer .QuickLink a:hover{
