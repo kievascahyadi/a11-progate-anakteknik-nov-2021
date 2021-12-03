@@ -336,7 +336,7 @@ footer .QuickLink li{
     }
 footer .QuickLink a{
 line-height: 30px;
-color:#E6E6FA;
+color:rgba(4, 102, 4, 0.8);
 text-decoration: none;
 }
 footer .QuickLink a:hover{
