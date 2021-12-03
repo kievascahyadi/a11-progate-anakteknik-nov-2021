@@ -23,7 +23,7 @@ body, html {
     background-size: cover;
 }
 
-.header {
+.header:hover {
     background-color: rgba(4, 102, 4, 0.8);
     height :60px;
     float:left;
